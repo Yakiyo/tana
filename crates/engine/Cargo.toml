@@ -1,0 +1,11 @@
+[package]
+name = "tana_engine"
+description = "The core engine behind tana"
+edition = "2021"
+version.workspace = true
+
+[dependencies]
+extism.workspace = true
+rayon.workspace = true
+serde.workspace = true
+ureq.workspace = true
